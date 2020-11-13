@@ -1,6 +1,7 @@
 """
 This file is the starting point of The Untitled Project.
 """
+
 import arcade
 import views
 
