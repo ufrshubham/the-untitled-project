@@ -22,7 +22,7 @@ jobs:
     - name: Lint with pylint
       run: |
         # stop the build if there are Python syntax errors or undefined names
-        pylint app/
+        pylint --rcfile=./pylint.rc app/
     - name: Test with pytest
       run: |
         pytest tests/
